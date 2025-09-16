@@ -6,7 +6,9 @@ public class PracticeProblem {
 	public static String evenOrOdd(int number){
         if (number % 2 == 0){
             return "even";
-        }else return "odd";
+        }else {
+			return "odd";
+		}
     }
     public static String teacherOrStudent(String name){
         if (name.equals("Kalisz")){
